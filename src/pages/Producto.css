@@ -1,0 +1,12 @@
+#tablero {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los cards se ajusten en varias filas */
+  justify-content: center; /* Centra los cards en el contenedor */
+}
+
+.Pedidos {
+  padding: 20px; /* Espaciado alrededor de todo el contenedor */
+}
+button {
+  border: 2px solid red; /* Esto debería dibujar un borde rojo en los botones */
+}

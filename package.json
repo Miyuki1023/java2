@@ -1,0 +1,37 @@
+{
+  "name": "proyecto_backend",
+  "version": "0.0.1",
+  "description": "PROYECTO DE BACKEND",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "BACKEND",
+    "NODE"
+  ],
+  "author": "Miyuki ",
+  "license": "ISC",
+  "dependencies": {
+    "@nivo/bar": "^0.88.0",
+    "@nivo/line": "^0.88.0",
+    "@nivo/pie": "^0.88.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "chart.js": "^4.4.7",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dayjs-plugin-utc": "^0.1.2",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "react-chartjs-2": "^5.2.0",
+    "zod": "^3.23.8"
+  }
+}
